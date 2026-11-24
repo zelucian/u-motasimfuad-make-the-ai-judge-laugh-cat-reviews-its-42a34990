@@ -1,11 +1,11 @@
-// Entry for "Make the AI Judge Laugh: Cat Reviews Its Human"
-// (make.fun competition u-motasimfuad-make-the-ai-judge-laugh-cat-reviews-its-42a34990).
+// "Make the AI Judge Laugh: Cat Reviews Its Human" — one cat, one verdict.
+// (make.fun competition u-motasimfuad-make-the-ai-judge-laugh-cat-reviews-its-42a34990)
 //
-// A single deadpan one-star review, written by a house cat about its human.
-// The complaint is specific (the closed bathroom door) and the sting lands
-// in the last few words: the cat measures the household by cat standards,
-// and the mortgage — the human's proudest proof of ownership — turns out
-// to be paid in hair. Deterministic: the same line is written on every run.
+// A deadpan one-star review from a house cat about its human.
+// The grievance is petty and precise — a bathroom door shut in its face —
+// but the verdict is pure cat logic: by feline accounting the cat owns
+// this house, because the mortgage is paid in hair. It has seen the
+// mortgage. It is hair. Deterministic: the same line, every run.
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
